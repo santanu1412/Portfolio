@@ -8,7 +8,7 @@ export const portfolioData = {
     linkedin: "https://www.linkedin.com/in/santanu-raj-in",
     location: "Jalandhar, Punjab, India",
     summary: "I build production-ready, AI-native applications. Bridging the gap between traditional full-stack architecture and modern Generative AI integration.",
-    heroImage: "/images/hero-profile.png"
+    heroImage: "/images/profile.png"
   },
   skills: [
     { 
@@ -24,7 +24,7 @@ export const portfolioData = {
     { 
       category: "Backend & Core", 
       icon: Terminal,
-      items: ["Python", "Java", "C++", "REST APIs", "Microservices"] 
+      items: ["Node.JS", "Django", "C++", "REST APIs", "Microservices"] 
     },
     { 
       category: "Data & DevOps", 
@@ -45,7 +45,7 @@ export const portfolioData = {
     {
       id: 2,
       role: "Software Engineer",
-      company: "Bluestock™",
+      company: "Bluestock™ Fintech",
       date: "Nov 2025 - Jan 2026",
       location: "New Delhi",
       description: "Architected automated ML pipelines for financial analysis. Reduced manual data processing by 70% for Nifty 100 companies using Python and Pandas.",
@@ -68,7 +68,7 @@ export const portfolioData = {
       category: "Machine Learning",
       description: "Automated financial analysis pipeline for Nifty 100 companies. Integrated Rule-Based ML models with React dashboards.",
       tech: ["Python", "React", "Pandas", "ML"],
-      links: { demo: "#", github: "#" }
+      links: { demo: "#", github: "#" } 
     },
     {
       id: 2,

@@ -209,7 +209,13 @@ const About = () => (
           <div className="absolute inset-0 bg-gradient-to-r from-cyber-primary to-cyber-secondary rounded-2xl blur opacity-30 group-hover:opacity-60 transition-opacity" />
           <div className="relative glass-panel rounded-2xl p-2 border border-cyber-primary/30">
             <div className="aspect-square bg-cyber-black/50 rounded-xl overflow-hidden flex items-center justify-center text-cyber-dim">
-              <span className="font-mono text-xs">Image_Not_Found: Place "hero-profile.png" in public/images</span>
+              {/* FIXED IMAGE TAG HERE */}
+              <img 
+                 src={portfolioData.personal.heroImage} 
+                 alt={portfolioData.personal.name}
+                 className="w-full h-full object-cover"
+                 onError={(e) => { e.target.style.display = "none"; }} 
+               />
             </div>
           </div>
         </motion.div>
