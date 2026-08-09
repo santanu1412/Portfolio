@@ -114,6 +114,19 @@ export const portfolioData = {
       github: "https://github.com/santanu1412",
       demo: "",
     },
+    {
+      id: "q3",
+      cat: "web",
+      rank: "S",
+      name: "FitSync — Futuristic Fitness Tracker",
+      desc: "A cutting-edge fitness tracking web application featuring a stunning dark neon UI, JWT authentication, and real-time biometric analytics. It supports intelligent calorie estimation based on MET values and interactive charts.",
+      difficulty: "Legendary",
+      rewards: ["JWT Auth", "Analytics Charts", "Glassmorphism UI"],
+      tags: ["Python", "FastAPI", "SQLite", "Chart.js"],
+      image: "/images/fitsync.png",
+      github: "https://github.com/santanu1412/Fitness-Tracker",
+      demo: "",
+    },
   ],
 
   /* ═══════════════════════════════════════
